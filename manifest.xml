@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Define remote sources where Git repositories can be found -->
+  <remote
+    name="origin"
+    fetch="https://github.com/AlmightyMegadeth00" />
+
+  <!-- Define default parameters for projects that do not override them -->
+  <default
+    remote="origin"
+    revision="main"
+    sync-j="6" />
+
+  <!-- Define the projects (repositories) to be synced -->
+  <project name="MultiProjectRepoTest" path="manifest/multiprojectrepotest" />
+  <project name="GradleRoot" path="" />
+
+
+</manifest>
